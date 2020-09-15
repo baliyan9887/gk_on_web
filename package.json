@@ -6,9 +6,17 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "classnames": "^2.2.6",
+    "gulp": "^4.0.2",
+    "gulp-append-prepend": "^1.0.8",
+    "node-sass": "^4.14.1",
+    "nouislider": "^14.6.1",
+    "perfect-scrollbar": "^1.5.0",
     "react": "^16.13.1",
+    "react-bootstrap-switch": "^15.5.3",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "reactstrap": "^8.5.1"
   },
   "scripts": {
     "start": "react-scripts start",

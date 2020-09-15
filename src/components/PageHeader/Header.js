@@ -7,12 +7,20 @@ import {
     Row, 
     Col,
     UncontrolledTooltip,
-    Button 
+    Button, 
+    Card,
+    CardHeader,
+    CardBody,
+    Nav,
+    NavItem,
+    NavLink
 
 } from "reactstrap";
 
 // javascript plugin used to create scrollbars on windows
 import PerfectScrollbar from "perfect-scrollbar";
+
+// import Mike from '../../assets/'
 
 let ps = null;
 
@@ -110,6 +118,58 @@ constructor(props) {
                       Follow us
                     </UncontrolledTooltip>
                   </div>
+              </Col>
+              <Col className="ml-auto mr-auto" lg="4" md="6">
+                <Card className="card-coin card-plain">
+                    <CardHeader>
+                    <img
+                        alt="..."
+                        className="img-center img-fluid rounded-circle"
+                        src={require("../../assets/img/mike.jpg")}
+                      />
+                      <h4 className="title">Transactions</h4>
+                    </CardHeader>
+                    <CardBody>
+                    <Nav
+                        className="nav-tabs-primary justify-content-center"
+                        tabs
+                      >
+                        <NavItem>
+                          <NavLink
+                            className={classnames({
+                              active: this.state.tabs === 1
+                            })}
+                            onClick={e => this.toggleTabs(e, "tabs", 1)}
+                            href="#pablo"
+                          >
+                            Wallet
+                          </NavLink>
+                        </NavItem>
+                        <NavItem>
+                          <NavLink
+                            className={classnames({
+                              active: this.state.tabs === 2
+                            })}
+                            onClick={e => this.toggleTabs(e, "tabs", 2)}
+                            href="#pablo"
+                          >
+                            Send
+                          </NavLink>
+                        </NavItem>
+                        <NavItem>
+                          <NavLink
+                            className={classnames({
+                              active: this.state.tabs === 3
+                            })}
+                            onClick={e => this.toggleTabs(e, "tabs", 3)}
+                            href="#pablo"
+                          >
+                            News
+                          </NavLink>
+                        </NavItem>
+                      </Nav>
+                    </CardBody>
+                </Card>
               </Col>
           </Row>
         </Container>

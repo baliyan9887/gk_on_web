@@ -72,50 +72,53 @@ constructor(props) {
         <Container className="align-items-center">
           <Row>
               <Col  lg="6" md="6">
-                <h1 className="profile-title text-left">Mike Scheinder</h1>
-                <h5 className="text-on-back">01</h5>
+                <h1 className="profile-title text-left">Gautam Kumar</h1>
+                <h5 className="text-on-back">G</h5>
                 <p className="profile-description">
-                    Offices parties lasting outward nothing age few resolve.
-                    Impression to discretion understood to we interested he
-                    excellence. Him remarkably use projection collecting. Going
-                    about eat forty world has round miles.
+                    Seasoned full-stack web developer proficient in Javascript, ReactJS,
+                    WordPress, AWS Amplify, AWS Lambda, CSS and PHP. I have built the 
+                    enterprise-grade web-application from scratch and scaled effectively.
+                    I enjoy working on the latest web technologies and how they can 
+                    solve real-world problems. Looking to work at a place where I
+                    challenged on a daily basis. So, I can learn and deliver better 
+                    than I can. 
                 </p>
                 <div className="btn-wrapper profile pt-3">
                     <Button
-                      className="btn-icon btn-round"
-                      color="twitter"
-                      href="https://twitter.com/creativetim"
+                      className="btn-icon btn-round instagram"
+                      
+                      href="https://www.instagram.com/baliyangk/"
                       id="tooltip639225725"
                       target="_blank"
                     >
-                      <i className="fab fa-twitter" />
+                      <i className="fab fa-instagram" />
                     </Button>
                     <UncontrolledTooltip delay={0} target="tooltip639225725">
-                      Follow us
+                      Follow me
                     </UncontrolledTooltip>
                     <Button
                       className="btn-icon btn-round"
                       color="facebook"
-                      href="https://www.facebook.com/creativetim"
+                      href="https://www.facebook.com/gautam.kumar.5030/"
                       id="tooltip982846143"
                       target="_blank"
                     >
                       <i className="fab fa-facebook-square" />
                     </Button>
                     <UncontrolledTooltip delay={0} target="tooltip982846143">
-                      Like us
+                      Like me
                     </UncontrolledTooltip>
                     <Button
                       className="btn-icon btn-round"
-                      color="dribbble"
-                      href="https://dribbble.com/creativetim"
+                      color="linkedin"
+                      href="https://www.linkedin.com/in/gautam-baliyan-28345a163/"
                       id="tooltip951161185"
                       target="_blank"
                     >
-                      <i className="fab fa-dribbble" />
+                      <i className="fab fa-linkedin" />
                     </Button>
                     <UncontrolledTooltip delay={0} target="tooltip951161185">
-                      Follow us
+                      Follow me
                     </UncontrolledTooltip>
                   </div>
               </Col>
@@ -127,7 +130,7 @@ constructor(props) {
                         className="img-center img-fluid rounded-circle"
                         src={require("../../assets/img/mike.jpg")}
                       />
-                      <h4 className="title">Transactions</h4>
+                      <h4 className="title">Web Developer</h4>
                     </CardHeader>
                     <CardBody>
                     <Nav
